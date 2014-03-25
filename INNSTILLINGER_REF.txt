@@ -1,0 +1,7 @@
+RELATIVE:INNSTILLINGER.txt
+
+Den første linjen i denne filen peker til plasseringen av generelle innstillinger for bruk i diverse Excel og Word dokumenter for å knytte sammen informasjon.
+
+Årsaken til at det blir brukt en fil som dette som må ligge i mappen til dokumentet det tilhører, er at det skal være enklere å redigere hvis man flytter filen som inneholder innstillingene, uten at man må endre macroene i Word og Excel dokumentene.
+
+Hvis "RELATIVE:" står først i linja, tar adressen utgangspunkt i at man befinner seg i mappen med Word/Excel dokumentet.

@@ -1,0 +1,10 @@
+####
+# Statutt-generator
+# Aliases
+#
+# Dette dokumentet kan brukes til å endre tittel på et dokument
+# uten å endre selve dokumentet eller filnavnet til dokumentet
+#
+# Syntax: dokumentnavn = dokumenttittel
+
+dokumentnavn.doc = Tittel på dokumentet

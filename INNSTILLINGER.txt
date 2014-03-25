@@ -1,0 +1,63 @@
+###################################################
+##                                               ##
+## Denne filen inneholder innstillinger som      ##
+## blir brukt av diverse Excel og Word macroer.  ##
+##                                               ##
+## Filen bør om mulig IKKE flyttes. Hvis den     ##
+## flyttes, må alle dokumentene som bruker denne ##
+## filen oppdateres.				 ##
+##						 ##
+## For hjelp, kontakt Henrik Steen               ##
+## henrist.net, mob 416 20 292                   ##
+## tidligere grensejeger kont. 0901 Gjøkåsen     ##
+##                                               ##
+###################################################
+
+
+####
+# Innstillinger for filadresser osv
+#
+
+# plassering for ghostscript
+ghostscript_exec = c:\Program Files\gs\gs9.05\bin\gswin64c.exe
+
+# adresse til statuttmappen
+statutter_path = C:\Users\Kollegiet\Documents\Arkiv\Statutter\GJELDENDE STATUTTER
+
+# adresse til målmappe for genererte filer
+target_path = C:\Users\Kollegiet\Documents\Arkiv\Statutter\WEBSTATUTTER
+
+# adresse til ZIP-fil
+zip_path = C:\Users\Kollegiet\Documents\Arkiv\Statutter\WEBSTATUTTER\statutter.zip
+
+
+####
+# Kategorier
+#
+# Når dette ble satt opp var kun 4 kategorier i bruk,
+# men det kan utvides til 6 uten å gjøre endringer i programmet
+#
+# start-nummeret må være høyere enn forrige kategori
+#
+cat1_tag = *STATUTTER*
+cat1_start = 1
+
+cat2_tag = *REGLEMENT*
+cat2_start = 10
+
+cat3_tag = *INSTRUKSER*
+cat3_start = 30
+
+cat4_tag = *RETNINGSLINJER*
+cat4_start = 60
+
+cat5_tag = 
+cat5_start = 
+
+cat6_tag = 
+cat6_start = 
+
+
+####
+# Diverse innstillinger
+
