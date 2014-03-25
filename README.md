@@ -7,6 +7,12 @@ Systemet er delt i to:
 * Verktøy for kollegiet for å generere dokumenter og laste opp til nettsiden
 * Script for hjemmesideoppmann (nettsidene) som gjør mottak og publiseringen
 
+Statutter ligger under følgende adresse:<br />
+http://blindern-studenterhjem.no/statutter/
+
+I tillegg ligger arkiv over gamle statutter tilgjengelig her:<br />
+http://blindern-studenterhjem.no/dokumenter/statutter_archive/
+
 ## Dokumentasjon
 
 ### For kollegiet
