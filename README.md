@@ -11,7 +11,7 @@ Statutter ligger under følgende adresse:<br />
 http://blindern-studenterhjem.no/statutter/
 
 I tillegg ligger arkiv over gamle statutter tilgjengelig her:<br />
-http://blindern-studenterhjem.no/dokumenter/statutter_archive/
+http://blindern-studenterhjem.no/dokumenter/statutter_arkiv/
 
 ## Dokumentasjon
 
