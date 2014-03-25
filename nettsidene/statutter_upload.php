@@ -19,6 +19,10 @@ function logme($string, $exit = true) {
 	if ($exit) die();
 }
 
+// kontroller at det er en forespørsel fra BS
+if (substr($_SERVER['REMOTE_ADDR'], 0, 7) != "37.191.")
+	logme("Ugyldig IP-adresse!");
+
 if (isset($_FILES['statutter'])) {
 	$dest = dirname(__FILE__) . "/statutter";
 	$dest_tmp = dirname(__FILE__) . "/statutter_tmp";
