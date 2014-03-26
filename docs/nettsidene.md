@@ -29,7 +29,7 @@ Legg til følgende i ```/dokumenter/.htaccess``` eller tilsvarende:
 
 ```apacheconf
 RewriteEngine On
-RewriteRule statutter/(index.html)? rewrite_index.php [L]
+RewriteRule ^statutter/(index.html)?$ rewrite_index.php [L]
 ```
 
 Legg til følgende i ```/dokumenter/statutter_arkiv/.htaccess``` eller tilsvarende:
