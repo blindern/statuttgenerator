@@ -15,7 +15,7 @@ rrmdir($dir."/".$object); else unlink($dir."/".$object);
  }
 
 function logme($string, $exit = true) {
-	file_put_contents("/tmp/statuttupload", $string."\n");
+	file_put_contents("/tmp/statuttupload", date('r').' ('.$_SERVER['REMOTE_ADDR'].'): '.$string."\n", FILE_APPEND);
 	if ($exit) die();
 }
 
