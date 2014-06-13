@@ -56,5 +56,5 @@ Tabellen i innholdsfortegnelsen må ikke endre struktur. Da vil ikke systemet kl
 #### Feilsøking
 1. Hvis ny PC: Systemet er avhengig av et program som heter Ghostscript. Se INNSTILLINGER.txt og sørg for at korrekt adresse er satt til programmet.
 2. Mapper flyttet: Hvis statutt-mappen flyttes må systemet gjøres kjent med den nye plasseringen. Se INNSTILLINGER.txt hvor adressene legges inn.
-3. Det originale systemet ligger i mappen «2012 VÅR/Husråd». Prøv med disse filene hvis systemet ikke fungerer.
-4. Hør med Henrik Steen (416 20 292).
+3. Hent ned statuttgeneratoren fra GitHub dersom systemet på maskinen ikke fungerer.
+4. Hør med Henrik Steen (416 20 292) som har laget systemet.
