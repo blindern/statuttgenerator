@@ -24,8 +24,8 @@ if (substr($_SERVER['REMOTE_ADDR'], 0, 7) != "37.191.")
 	logme("Ugyldig IP-adresse!");
 
 if (isset($_FILES['statutter'])) {
-	$dest = dirname(__FILE__) . "/statutter";
-	$dest_tmp = dirname(__FILE__) . "/statutter_tmp";
+	$dest = dirname(__FILE__) . "/gjeldende";
+	$dest_tmp = dirname(__FILE__) . "/gjeldende_tmp";
 
 	#@mkdir($dest);
 	@mkdir($dest_tmp);
@@ -48,8 +48,8 @@ if (isset($_FILES['statutter'])) {
 	$zip->extractTo($dest_tmp);
 	$zip->close();
 
-	$time = date("Ymd_His", filectime($dest));
-	$dest_arc = dirname(__FILE__) . "/statutter_arkiv/statutter_".$time;
+	$time = date("Ymd_His", filemtime($dest).'/statutter.zip');
+	$dest_arc = dirname(__FILE__) . "/arkiv/statutter_".$time;
 	@rename($dest, $dest_arc);
 	@rrmdir($dest);
 	rename($dest_tmp, $dest);
